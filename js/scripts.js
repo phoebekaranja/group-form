@@ -6,3 +6,10 @@ $(document).ready(function() {
         event.preventDefault();
     });
 })
+$(document).ready(function() {
+    $("#blanks form").submit(function() {
+        $("#person1").text("");
+        $("#address").text("");
+        event.preventDefault();
+    });
+})
